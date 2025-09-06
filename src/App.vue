@@ -1,10 +1,11 @@
 <template>
-   <div class="min-h-screen bg-blue-800">
+   <div class="min-h-screen bg-blue-700">
    <Header />
     <HeroSection />
      <AboutSection />
      <ServicesSection />
      <EventSection />
+     <OfferingSection/>
      <Footer />
      </div>
 </template>
@@ -15,7 +16,9 @@ import HeroSection from "./components/public/HeroSection.vue";
 import AboutSection from "./components/public/AboutSection.vue";
 import ServicesSection from "./components/public/ServicesSection.vue";
 //import EventSection from "./components/public/EventSection.vue";
-import Footer from "./components/common/Footer.vue";  
+import OfferingSection from "./components/public/OfferingSection.vue";
+import Footer from "./components/common/Footer.vue";
+  
 </script>
 
 

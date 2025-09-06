@@ -1,21 +1,21 @@
 <template>
-  <section id="about" class="py-20 bg-blue-800">
+  <section id="about" class="py-20 bg-blue-700">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16 animate-fade-in-up" ref="aboutTitle">
-        <h2 class="text-4xl font-bold text-orange-600 mb-6">
+        <h2 class="text-4xl font-bold text-amber-900 mb-6">
           About Our Ministry
         </h2>
         <p class="text-lg text-white max-w-3xl mx-auto leading-relaxed">
           Jesus Christ Solution Ministry is a vibrant community of believers
-          dedicated to spreading God's love and providing spiritual solutions to
-          life's challenges. We believe in the transformative power of faith and
+          dedicated to spreading God's word, love and providing spiritual solutions to
+          life's. We believe in the transformative power of faith and
           the importance of community support.
         </p>
       </div>
 
       <div class="grid md:grid-cols-2 gap-12 mb-16">
         <div
-          class="bg-orange-600 p-8 rounded-lg shadow-md animate-slide-in-left animation-delay-300"
+          class="bg-amber-900 p-8 rounded-lg shadow-md animate-slide-in-left animation-delay-300"
           ref="missionCard"
         >
           <div
@@ -26,7 +26,7 @@
           <h3 class="text-2xl font-bold text-white text-center mb-4">
             Our Mission
           </h3>
-          <p class="text-stone-900 leading-relaxed">
+          <p class="text-white leading-relaxed">
             At Jesus Christ Solution Ministry Church, our mission is to spread
             the Gospel, bring hope to the weary, and uplift souls through the
             love and teachings of Jesus Christ.
@@ -34,7 +34,7 @@
         </div>
 
         <div
-          class="bg-orange-600 p-8 rounded-lg shadow-md animate-slide-in-right animation-delay-500"
+          class="bg-amber-900 p-8 rounded-lg shadow-md animate-slide-in-right animation-delay-500"
           ref="visionCard"
         >
           <div
@@ -45,7 +45,7 @@
           <h3 class="text-2xl font-bold text-white text-center mb-4">
             Our Vision
           </h3>
-          <p class="text-gray-900 leading-relaxed">
+          <p class="text-white leading-relaxed">
             Go into all the world and preach GoodNews to all creation,Whoever
             belleves will be saved
           </p>
@@ -54,7 +54,7 @@
 
       <div class="grid md:grid-cols-3 gap-8">
         <div
-          class="text-center p-6 bg-orange-600 rounded-lg shadow-md animate-fade-in-up animation-delay-700"
+          class="text-center p-6 bg-amber-900 rounded-lg shadow-md animate-fade-in-up animation-delay-700"
           ref="valueCard1"
         >
           <div
@@ -65,7 +65,7 @@
           <h3 class="text-xl font-semibold text-white mb-3">
             Youth Ministry
           </h3>
-          <p class="text-gray-900">
+          <p class="text-white">
             Our Youth Ministry is dedicated to guiding young people into a
             deeper, authentic relationship with Christ, fostering spiritual
             growth, moral formation, and a sense of belonging within our faith
@@ -74,7 +74,7 @@
         </div>
 
         <div
-          class="text-center p-6 bg-orange-600 rounded-lg shadow-md animate-fade-in-up animation-delay-900"
+          class="text-center p-6 bg-amber-900 rounded-lg shadow-md animate-fade-in-up animation-delay-900"
           ref="valueCard2"
         >
           <div
@@ -85,7 +85,7 @@
           <h3 class="text-xl font-semibold text-white mb-3">
             Sunday Shool Kids
           </h3>
-          <p class="text-gray-900">
+          <p class="text-white">
             Here, the Word of God becomes a living guide—not just for teaching,
             but for forming character, building community, and inspiring
             lifelong discipleship. We joyfully welcome children into an
@@ -96,7 +96,7 @@
         </div>
 
         <div
-          class="text-center p-6 bg-orange-600 rounded-lg shadow-md animate-fade-in-up animation-delay-1100"
+          class="text-center p-6 bg-amber-900 rounded-lg shadow-md animate-fade-in-up animation-delay-1100"
           ref="valueCard3"
         >
           <div
@@ -107,7 +107,7 @@
           <h3 class="text-xl font-semibold text-white mb-3">
             Bible Study Group
           </h3>
-          <p class="text-gray-900">
+          <p class="text-white">
             We provide opportunities for spiritual development through worship,
             prayer, and biblical teaching.
           </p>

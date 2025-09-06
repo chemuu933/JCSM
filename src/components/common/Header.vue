@@ -1,5 +1,5 @@
 <template>
-    <nav class="fixed top-0 left-0 right-0 bg-blue-800 shadow-md z-50">
+    <nav class="fixed top-0 left-0 right-0 bg-blue-700 shadow-md z-50">
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 <div class="flex justify-between items-center h-16">
 <!-- Logo -->
@@ -7,16 +7,16 @@
 <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center">
 <i class="fas fa-cross text-blue-600 text-xl"></i>
 </div>
-<h1 class="text-xl font-bold text-orange-600">JESUS CHRIST SOLUTION MINISTRY</h1>
+<h1 class="text-xl font-bold text-amber-950">JESUS CHRIST SOLUTION MINISTRY</h1>
 </div>
 <!-- Desktop Navigation -->
 <div class="hidden md:block">
 <div class="ml-10 flex items-baseline space-x-8">
-<a href="#home" class="text-orange-600 hover:text-white px-3 py-2 text-sm font-medium cursor-pointer transition-colors duration-300">Home</a>
-<a href="#about" class="text-orange-600 hover:text-white px-3 py-2 text-sm font-medium cursor-pointer transition-colors duration-300">About Us</a>
-<a href="#events" class="text-orange-600 hover:text-white px-3 py-2 text-sm font-medium cursor-pointer transition-colors duration-300">Events</a>
-<a href="#services" class="text-orange-600 hover:text-white px-3 py-2 text-sm font-medium cursor-pointer transition-colors duration-300">Services</a>
-<a href="#offering" class="text-orange-600 hover:text-white px-3 py-2 text-sm font-medium cursor-pointer transition-colors duration-300">Offering</a>
+<a href="#home" class="text-amber-950 hover:text-white px-3 py-2 text-sm font-medium cursor-pointer transition-colors duration-300">Home</a>
+<a href="#about" class="text-amber-950 hover:text-white px-3 py-2 text-sm font-medium cursor-pointer transition-colors duration-300">About Us</a>
+<a href="#events" class="text-amber-950 hover:text-white px-3 py-2 text-sm font-medium cursor-pointer transition-colors duration-300">Events</a>
+<a href="#services" class="text-amber-950 hover:text-white px-3 py-2 text-sm font-medium cursor-pointer transition-colors duration-300">Services</a>
+<a href="#offering" class="text-amber-950 hover:text-white px-3 py-2 text-sm font-medium cursor-pointer transition-colors duration-300">Offering</a>
 </div>
 </div>
 <!-- Mobile menu button -->
@@ -29,11 +29,11 @@
 <!-- Mobile Navigation -->
 <div v-if="mobileMenuOpen" class="md:hidden">
 <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-blue-700 border-t border-blue-500">
-<a href="#home" class="text-orange-600  hover:text-white  block px-3 py-2 text-base font-medium cursor-pointer">Home</a>
-<a href="#about" class="text-orange-600  hover:text-white  block px-3 py-2 text-base font-medium cursor-pointer">About Us</a>
-<a href="#events" class="text-orange-600  hover:text-white  block px-3 py-2 text-base font-medium cursor-pointer">Events</a>
-<a href="#services" class="text-orange-600  hover:text-white  block px-3 py-2 text-base font-medium cursor-pointer">Services</a>
-<a href="#offering" class="text-orange-600 hover:text-white  block px-3 py-2 text-base font-medium cursor-pointer">Offering</a>
+<a href="#home" class="text-amber-950  hover:text-white  block px-3 py-2 text-base font-medium cursor-pointer">Home</a>
+<a href="#about" class="text-amber-950  hover:text-white  block px-3 py-2 text-base font-medium cursor-pointer">About Us</a>
+<a href="#events" class="text-amber-950  hover:text-white  block px-3 py-2 text-base font-medium cursor-pointer">Events</a>
+<a href="#services" class="text-amber-950  hover:text-white  block px-3 py-2 text-base font-medium cursor-pointer">Services</a>
+<a href="#offering" class="text-amber-950 hover:text-white  block px-3 py-2 text-base font-medium cursor-pointer">Offering</a>
 </div>
 </div>
 </div>

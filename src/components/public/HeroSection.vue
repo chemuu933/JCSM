@@ -11,7 +11,6 @@
         ref="heroTitle"
       >
         Jesus Christ Solution Ministry
-        <p>WELCOME</p>
       </h1>
       <p
         class="text-xl md:text-2xl mb-8 leading-relaxed opacity-0 transform translate-y-10 transition-all duration-1000 delay-700"
@@ -21,7 +20,7 @@
         rest. – Matthew 11:28
       </p>
       <button
-        class="bg-amber-800 hover:bg-amber-700 text-white px-8 py-4 text-lg font-semibold rounded-lg whitespace-nowrap cursor-pointer transition-colors duration-300 opacity-0 transform translate-y-10 transition-all duration-1000 delay-1000"
+        class="bg-amber-900 hover:bg-amber-700 text-white px-8 py-4 text-lg font-semibold rounded-lg whitespace-nowrap cursor-pointer transition-colors duration-300 opacity-0 transform translate-y-10 transition-all duration-1000 delay-1000"
         ref="heroButton"
         @click="handleJoinUs"
       >

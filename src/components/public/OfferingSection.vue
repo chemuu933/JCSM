@@ -1,52 +1,88 @@
 <template>
-    <section id="offering" class="py-20 bg-blue-100">
-<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-<h2 class="text-4xl font-bold text-amber-800 mb-6 opacity-0 transform translate-y-10 transition-all duration-1000" ref="offeringTitle">Support Our Ministry</h2>
-<p class="text-lg text-gray-700 mb-12 leading-relaxed opacity-0 transform translate-y-10 transition-all duration-1000 delay-300" ref="offeringSubtitle">
-Your generous giving helps us continue our mission of spreading God's love and serving our community. Every contribution makes a difference in the lives we touch.
-</p>
-<div class="grid md:grid-cols-2 gap-8 mb-12">
-<div class="bg-amber-50 p-8 rounded-lg opacity-0 transform translate-x-[-50px] transition-all duration-1000 delay-500" ref="offeringCard1">
-<i class="fas fa-hand-holding-heart text-4xl text-blue-300 mb-4"></i>
-<h3 class="text-xl font-semibold text-amber-800 mb-3">Online Giving</h3>
-<p class="text-gray-600 mb-4">Make a secure online donation to support our ministry and outreach programs.</p>
-<button class="bg-amber-800 hover:bg-amber-700 text-white px-6 py-3 !rounded-button whitespace-nowrap cursor-pointer transition-colors duration-300">
-Give Online
-</button>
-</div>
-<div class="bg-amber-50 p-8 rounded-lg opacity-0 transform translate-x-[50px] transition-all duration-1000 delay-700" ref="offeringCard2">
-<i class="fas fa-church text-4xl text-blue-300 mb-4"></i>
-<h3 class="text-xl font-semibold text-amber-800 mb-3">In-Person Giving</h3>
-<p class="text-gray-600 mb-4">You can also give during our worship services or visit our church office.</p>
-<button class="bg-amber-800 hover:bg-amber-700 text-white px-6 py-3 !rounded-button whitespace-nowrap cursor-pointer transition-colors duration-300">
-Visit Us
-</button>
-</div>
-</div>
-<div class="bg-blue-50 p-8 rounded-lg opacity-0 transform translate-y-10 transition-all duration-1000 delay-900" ref="offeringInfo">
-<h4 class="text-lg font-semibold text-amber-800 mb-3">Ways Your Giving Helps</h4>
-<div class="grid md:grid-cols-3 gap-6 text-sm text-gray-600">
-<div>
-<i class="fas fa-users text-blue-300 mb-2"></i>
-<p>Community outreach programs</p>
-</div>
-<div>
-<i class="fas fa-home text-blue-300 mb-2"></i>
-<p>Church facilities and maintenance</p>
-</div>
-<div>
-<i class="fas fa-graduation-cap text-blue-300 mb-2"></i>
-<p>Educational and youth programs</p>
-</div>
-</div>
-</div>
-</div>
-</section>
+  <!-- Main Content -->
+  <section id="offering" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <!-- M-Pesa Offering Section -->
+    <div class="bg-amber-900 rounded-2xl shadow-lg p-8 md:p-12">
+      <!-- M-Pesa Logo and Title -->
+      <div class="text-center mb-12">
+        <div
+          class="inline-flex items-center justify-center w-20 h-20 bg-green-600 rounded-full mb-6"
+        >
+          <span class="text-white font-bold text-2xl">M</span>
+        </div>
+        <h1 class="text-3xl font-bold text-white mb-2">LIPA NA M-Pesa</h1>
+        <p class="text-white text-lg">
+          Secure, fast, and convenient mobile payments
+        </p>
+      </div>
+
+      <!-- M-Pesa Payment Details -->
+      <div class="bg-gray-50 rounded-xl p-6 mb-8">
+        <h3 class="text-lg font-semibold text-gray-900 mb-4 flex items-center">
+          <i class="fas fa-info-circle text-blue-500 mr-2"></i>
+          SKYLINE SACCO
+        </h3>
+        <div class="grid grid-cols-1 gap-4">
+          <div class="flex justify-between items-center">
+            <span class="text-gray-900">Paybill Number:</span>
+            <span class="font-semibold text-gray-900">116519</span>
+          </div>
+          <div class="flex justify-between items-center">
+            <span class="text-gray-900">Account Number:</span>
+            <span class="font-semibold text-gray-900">007011</span>
+          </div>
+          <div class="flex justify-between items-center">
+            <span class="text-gray-900">Account Name:</span>
+            <span class="font-semibold text-gray-900"
+              >JESUS SOLUTION MINISTRY</span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
+
 <script lang="ts" setup>
-const offeringTitle = ref(null);
-const offeringSubtitle = ref(null);
-const offeringCard1 = ref(null);
-const offeringCard2 = ref(null);
-const offeringInfo = ref(null);
+import { ref } from "vue";
+
+// Reactive data for form inputs
+const paymentAmount = ref("");
+const phoneNumber = ref("");
+
+// Handle payment button click
+const handlePayment = () => {
+  if (!paymentAmount.value || !phoneNumber.value) {
+    alert("Please enter both amount and phone number");
+    return;
+  }
+
+  // Add your M-Pesa payment logic here
+  console.log("Processing M-Pesa payment...", {
+    amount: paymentAmount.value,
+    phone: phoneNumber.value,
+  });
+
+  // You can emit events, call APIs, or handle payment processing
+  // Example: initiate M-Pesa STK push or redirect to payment gateway
+};
 </script>
+
+<style scoped>
+/* Ensure Font Awesome icons are properly displayed */
+.fas {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+/* Custom button styling */
+button {
+  border-radius: 8px;
+}
+
+/* Input focus styles */
+input:focus {
+  outline: none;
+}
+</style>

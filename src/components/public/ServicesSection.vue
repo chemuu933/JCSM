@@ -1,46 +1,45 @@
 <template>
-  <section id="services" class="py-20 bg-blue-800">
+  <section id="services" class="py-20 bg-blue-700">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div
         class="text-center mb-16 animate-fade-in-up"
         ref="servicesTitle"
       >
-        <h2 class="text-4xl font-bold text-orange-600 mb-6">Service Time</h2>
+        <h2 class="text-4xl font-bold text-amber-900 mb-6">Service Time</h2>
         <p class="text-lg text-white">Join us for worship and fellowship</p>
       </div>
       
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         <div
-          class="bg-orange-600 p-8 rounded-lg text-center animate-fade-in-up animation-delay-300"
+          class="bg-amber-900 p-8 rounded-lg text-center animate-fade-in-up animation-delay-300"
           ref="serviceCard1"
         >
           <i class="fas fa-sun text-3xl text-blue-600 mb-4"></i>
           <h3 class="text-xl font-semibold text-white mb-2">
             Sunday Morning Service
           </h3>
-          <p class="text-gray-900 mb-2">9:30 AM - 12:00 PM</p>
-          <p class="text-sm text-gray-900">
+          <p class="text-white mb-2">9:30 AM - 12:00 PM</p>
+          <p class="text-sm text-white">
             Main worship service with praise, worship, and biblical teaching
           </p>
         </div>
         
         <div
-          class="bg-orange-600 p-8 rounded-lg text-center animate-fade-in-up animation-delay-500"
+          class="bg-amber-900 p-8 rounded-lg text-center animate-fade-in-up animation-delay-500"
           ref="serviceCard2"
         >
           <i class="fas fa-moon text-3xl text-blue-600 mb-4"></i>
           <h3 class="text-xl font-semibold text-white mb-2">
-            Friday Praise & worship
-            
+            Friday Praise & Worship
           </h3>
-          <p class="text-gray-900 mb-2">5:00 PM - 6:00 PM</p>
-          <p class="text-sm text-gray-900">
+          <p class="text-white mb-2">5:00 PM - 6:00 PM</p>
+          <p class="text-sm text-white">
             Evening worship with prayer and communion
           </p>
         </div>
         
         <div
-          class="bg-orange-600 p-8 rounded-lg text-center animate-fade-in-up animation-delay-700"
+          class="bg-amber-900 p-8 rounded-lg text-center animate-fade-in-up animation-delay-700"
           ref="serviceCard3"
         >
           <i class="fas fa-book-open text-3xl text-blue-600 mb-4"></i>
@@ -48,8 +47,8 @@
            mb-2">
             Wednesday  Prayers
           </h3>
-          <p class="text-gray-900 mb-2">5:30 PM - 6:30 PM</p>
-          <p class="text-sm text-gray-900">
+          <p class="text-white mb-2">5:30 PM - 6:30 PM</p>
+          <p class="text-sm text-white">
            Prayer sessions that bring hearts together in unity
           </p>
         </div>
@@ -59,7 +58,7 @@
     <!-- Founder Section -->
     <div class="mt-20">
       <div class="text-center mb-16 animate-fade-in-up" ref="founderTitle">
-        <h2 class="text-4xl font-bold text-orange-600 mb-6">Founder</h2>
+        <h2 class="text-4xl font-bold text-amber-900 mb-6">Founder</h2>
         <p class="text-lg text-white">Leading with Vision and Faith</p>
       </div>
       
@@ -72,7 +71,7 @@
           />
         </div>
         <div class="md:w-1/2 text-left">
-          <h3 class="text-2xl font-bold text-orange-600 mb-4">
+          <h3 class="text-2xl font-bold text-amber-900 mb-4">
             Dr. Emily Cheposero Tumwet
           </h3>
           <p class="text-white mb-6 leading-relaxed">
