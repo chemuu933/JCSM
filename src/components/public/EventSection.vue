@@ -1,50 +1,148 @@
 <template>
-  <section id="events" class="py-20 bg-blue-800">
+  <section id="events" class="py-20 bg-gradient-to-b from-blue-700 to-blue-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Enhanced Title Section -->
       <div class="text-center mb-16 animate-fade-in-up" ref="eventsTitle">
-        <h2 class="text-4xl font-bold text-amber-800 mb-6">Upcoming Events</h2>
-        <p class="text-lg text-white">Stay connected with our church community</p>
+        <div class="inline-block">
+          <h2 class="text-4xl md:text-5xl font-bold text-amber-900 mb-4">
+            Upcoming Events
+          </h2>
+          <div
+            class="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500 to-transparent mx-auto mb-6"
+          ></div>
+        </div>
+        <p class="text-lg text-white/90 font-light">
+          Stay connected with our church community
+        </p>
       </div>
-      
+
+      <!-- Enhanced Events Grid -->
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="bg-amber-50 rounded-lg shadow-md overflow-hidden animate-slide-in-left animation-delay-300" ref="eventCard1">
-          <img :src="eventImage1" alt="Youth Conference" class="w-full h-48 object-cover object-top">
-          <div class="p-6">
-            <div class="text-blue-600 text-sm font-semibold mb-2">March 15, 2025</div>
-            <h3 class="text-xl font-semibold text-amber-800 mb-3">Youth Conference 2025</h3>
-            <p class="text-gray-600 mb-4">A special gathering for young people to grow in faith and fellowship with inspiring speakers and worship.</p>
-            <button 
-              class="bg-amber-800 hover:bg-amber-700 text-white px-4 py-2 rounded-lg whitespace-nowrap cursor-pointer transition-colors duration-300"
+        <!-- Youth Conference Card -->
+        <div
+          class="bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl overflow-hidden animate-fade-in-up animation-delay-300 hover:transform hover:scale-105 transition-all duration-500 border border-white/20"
+          ref="eventCard1"
+        >
+          <div class="relative">
+            <img
+              :src="eventImage1"
+              alt="Youth Conference"
+              class="w-full h-48 object-cover object-top"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"
+            ></div>
+            <!-- Date Badge -->
+            <div
+              class="absolute top-4 left-4 bg-blue-600/90 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm font-semibold"
+            >
+              March 15, 2025
+            </div>
+          </div>
+          <div class="p-8">
+            <!-- Icon -->
+            <div
+              class="bg-gradient-to-br from-amber-500 to-amber-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 shadow-lg"
+            >
+              <i class="fas fa-users text-white text-lg"></i>
+            </div>
+            <h3 class="text-xl font-bold text-amber-900 mb-3">
+              Youth Conference 2025
+            </h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              A special gathering for young people to grow in faith and
+              fellowship with inspiring speakers and worship.
+            </p>
+            <button
+              class="w-full bg-gradient-to-r from-amber-800 to-amber-700 hover:from-amber-700 hover:to-amber-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
               @click="handleLearnMore('youth-conference')"
             >
               Learn More
             </button>
           </div>
         </div>
-        
-        <div class="bg-amber-50 rounded-lg shadow-md overflow-hidden animate-fade-in-up animation-delay-500" ref="eventCard2">
-          <img :src="eventImage2" alt="Community Outreach" class="w-full h-48 object-cover object-top">
-          <div class="p-6">
-            <div class="text-blue-600 text-sm font-semibold mb-2">March 22, 2025</div>
-            <h3 class="text-xl font-semibold text-amber-800 mb-3">Community Outreach Day</h3>
-            <p class="text-gray-600 mb-4">Join us as we serve our community through food distribution, free health checkups, and prayer support.</p>
-            <button 
-              class="bg-amber-800 hover:bg-amber-700 text-white px-4 py-2 rounded-lg whitespace-nowrap cursor-pointer transition-colors duration-300"
+
+        <!-- Community Outreach Card -->
+        <div
+          class="bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl overflow-hidden animate-fade-in-up animation-delay-500 hover:transform hover:scale-105 transition-all duration-500 border border-white/20"
+          ref="eventCard2"
+        >
+          <div class="relative">
+            <img
+              :src="eventImage2"
+              alt="Community Outreach"
+              class="w-full h-48 object-cover object-top"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"
+            ></div>
+            <!-- Date Badge -->
+            <div
+              class="absolute top-4 left-4 bg-blue-600/90 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm font-semibold"
+            >
+              March 22, 2025
+            </div>
+          </div>
+          <div class="p-8">
+            <!-- Icon -->
+            <div
+              class="bg-gradient-to-br from-blue-500 to-blue-600 w-12 h-12 rounded-full flex items-center justify-center mb-4 shadow-lg"
+            >
+              <i class="fas fa-heart text-white text-lg"></i>
+            </div>
+            <h3 class="text-xl font-bold text-amber-900 mb-3">
+              Community Outreach Day
+            </h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Join us as we serve our community through food distribution, free
+              health checkups, and prayer support.
+            </p>
+            <button
+              class="w-full bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
               @click="handleVolunteer('community-outreach')"
             >
               Volunteer
             </button>
           </div>
         </div>
-        
-        <div class="bg-amber-50 rounded-lg shadow-md overflow-hidden animate-slide-in-right animation-delay-700" ref="eventCard3">
-          <img :src="eventImage3" alt="Easter Celebration" class="w-full h-48 object-cover object-top">
-          <div class="p-6">
-            <div class="text-blue-600 text-sm font-semibold mb-2">April 13, 2025</div>
-            <h3 class="text-xl font-semibold text-amber-800 mb-3">Easter Celebration</h3>
-            <p class="text-gray-600 mb-4">Celebrate the resurrection of Jesus Christ with special worship services, music, and fellowship.</p>
-            <button 
-              class="bg-amber-800 hover:bg-amber-700 text-white px-4 py-2 rounded-lg whitespace-nowrap cursor-pointer transition-colors duration-300"
+
+        <!-- Easter Celebration Card -->
+        <div
+          class="bg-white/95 backdrop-blur-sm rounded-2xl shadow-2xl overflow-hidden animate-fade-in-up animation-delay-700 hover:transform hover:scale-105 transition-all duration-500 border border-white/20"
+          ref="eventCard3"
+        >
+          <div class="relative">
+            <img
+              :src="eventImage3"
+              alt="Easter Celebration"
+              class="w-full h-48 object-cover object-top"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"
+            ></div>
+            <!-- Date Badge -->
+            <div
+              class="absolute top-4 left-4 bg-blue-600/90 backdrop-blur-sm text-white px-3 py-1 rounded-full text-sm font-semibold"
+            >
+              April 13, 2025
+            </div>
+          </div>
+          <div class="p-8">
+            <!-- Icon -->
+            <div
+              class="bg-gradient-to-br from-amber-600 to-amber-700 w-12 h-12 rounded-full flex items-center justify-center mb-4 shadow-lg"
+            >
+              <i class="fas fa-cross text-white text-lg"></i>
+            </div>
+            <h3 class="text-xl font-bold text-amber-900 mb-3">
+              Easter Celebration
+            </h3>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+              Celebrate the resurrection of Jesus Christ with special worship
+              services, music, and fellowship.
+            </p>
+            <button
+              class="w-full bg-gradient-to-r from-amber-800 to-amber-700 hover:from-amber-700 hover:to-amber-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
               @click="handleJoinUs('easter-celebration')"
             >
               Join Us
@@ -57,62 +155,65 @@
 </template>
 
 <script lang="ts" setup>
-import { ref, onMounted } from 'vue'
+import { ref, onMounted } from "vue";
 
 // Template refs
-const eventsTitle = ref(null)
-const eventCard1 = ref(null)
-const eventCard2 = ref(null)
-const eventCard3 = ref(null)
+const eventsTitle = ref(null);
+const eventCard1 = ref(null);
+const eventCard2 = ref(null);
+const eventCard3 = ref(null);
 
 // Event images
-const eventImage1 = 'https://readdy.ai/api/search-image?query=young%20people%20gathering%20in%20modern%20church%20setting%20with%20warm%20lighting%20and%20contemporary%20worship%20atmosphere%20featuring%20brown%20and%20blue%20color%20scheme%20for%20youth%20conference%20event&width=400&height=300&seq=event001&orientation=landscape'
-const eventImage2 = 'https://readdy.ai/api/search-image?query=community%20volunteers%20serving%20food%20and%20helping%20people%20in%20outdoor%20setting%20with%20warm%20brown%20and%20soft%20blue%20tones%20showing%20church%20outreach%20and%20charity%20work%20in%20action&width=400&height=300&seq=event002&orientation=landscape'
-const eventImage3 = 'https://readdy.ai/api/search-image?query=beautiful%20easter%20celebration%20setup%20with%20cross%20flowers%20and%20warm%20lighting%20in%20church%20sanctuary%20featuring%20brown%20and%20blue%20color%20palette%20for%20resurrection%20sunday%20worship%20service&width=400&height=300&seq=event003&orientation=landscape'
+const eventImage1 =
+  "https://readdy.ai/api/search-image?query=young%20people%20gathering%20in%20modern%20church%20setting%20with%20warm%20lighting%20and%20contemporary%20worship%20atmosphere%20featuring%20brown%20and%20blue%20color%20scheme%20for%20youth%20conference%20event&width=400&height=300&seq=event001&orientation=landscape";
+const eventImage2 =
+  "https://readdy.ai/api/search-image?query=community%20volunteers%20serving%20food%20and%20helping%20people%20in%20outdoor%20setting%20with%20warm%20brown%20and%20soft%20blue%20tones%20showing%20church%20outreach%20and%20charity%20work%20in%20action&width=400&height=300&seq=event002&orientation=landscape";
+const eventImage3 =
+  "https://readdy.ai/api/search-image?query=beautiful%20easter%20celebration%20setup%20with%20cross%20flowers%20and%20warm%20lighting%20in%20church%20sanctuary%20featuring%20brown%20and%20blue%20color%20palette%20for%20resurrection%20sunday%20worship%20service&width=400&height=300&seq=event003&orientation=landscape";
 
 // Event handlers
 const handleLearnMore = (eventType: string) => {
-  console.log(`Learn more about: ${eventType}`)
+  console.log(`Learn more about: ${eventType}`);
   // Add your navigation or modal logic here
-}
+};
 
 const handleVolunteer = (eventType: string) => {
-  console.log(`Volunteer for: ${eventType}`)
+  console.log(`Volunteer for: ${eventType}`);
   // Add your volunteer registration logic here
-}
+};
 
 const handleJoinUs = (eventType: string) => {
-  console.log(`Join us for: ${eventType}`)
+  console.log(`Join us for: ${eventType}`);
   // Add your event registration logic here
-}
+};
 
-// Optional: Add intersection observer for scroll-triggered animations
+// Intersection observer for scroll-triggered animations
 onMounted(() => {
   const observerOptions = {
     threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-  }
+    rootMargin: "0px 0px -50px 0px",
+  };
 
   const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
+    entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        entry.target.classList.add('animate-visible')
+        entry.target.classList.add("animate-visible");
       }
-    })
-  }, observerOptions)
+    });
+  }, observerOptions);
 
   // Observe all animated elements
   const elements = [
     eventsTitle.value,
     eventCard1.value,
     eventCard2.value,
-    eventCard3.value
-  ]
+    eventCard3.value,
+  ];
 
-  elements.forEach(el => {
-    if (el) observer.observe(el)
-  })
-})
+  elements.forEach((el) => {
+    if (el) observer.observe(el);
+  });
+});
 </script>
 
 <style scoped>
@@ -128,39 +229,10 @@ onMounted(() => {
   }
 }
 
-@keyframes slideInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
 /* Animation classes */
 .animate-fade-in-up {
-  animation: fadeInUp 1s ease-out forwards;
-}
-
-.animate-slide-in-left {
-  animation: slideInLeft 1s ease-out forwards;
-}
-
-.animate-slide-in-right {
-  animation: slideInRight 1s ease-out forwards;
+  opacity: 0;
+  animation: fadeInUp 2s ease-out forwards;
 }
 
 /* Animation delays */
@@ -176,24 +248,76 @@ onMounted(() => {
   animation-delay: 0.7s;
 }
 
-/* Fallback visibility - ensures content is always visible */
-.animate-fade-in-up,
-.animate-slide-in-left,
-.animate-slide-in-right {
+/* Intersection observer visible state */
+.animate-visible {
   opacity: 1;
-  transform: none;
+  transform: translateY(0);
 }
 
-/* Card hover effects */
-.bg-amber-50:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
+/* Enhanced card hover effects */
+.bg-white\/95:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Icon container hover effects */
+.rounded-full:hover {
+  transform: rotate(10deg) scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+/* Backdrop blur support */
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+}
+
+/* Enhanced shadow effects */
+.shadow-2xl {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.shadow-2xl:hover {
+  box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.3);
 }
 
 /* Button hover effects */
 button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Gradient button animations */
+.bg-gradient-to-r:hover {
+  background-size: 200% 200%;
+  animation: gradient 2s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .p-8 {
+    padding: 1.5rem;
+  }
+
+  .text-4xl {
+    font-size: 2rem;
+  }
 }
 </style>
