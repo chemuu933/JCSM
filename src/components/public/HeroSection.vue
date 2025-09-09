@@ -19,7 +19,7 @@
 
       <!-- Enhanced title with gradient text -->
       <h1
-        class="pt-20 text-5xl md:text-7xl font-bold mb-8 font-serif bg-gradient-to-r from-white via-amber-200 to-white bg-clip-text text-transparent opacity-0 transform translate-y-10 transition-all duration-1000 delay-500"
+        class="pt-20 text-5xl md:text-7xl font-bold mb-8 font-serif bg-gradient-to-r from-amber-700 via-amber-700 to-amber-700 bg-clip-text text-transparent opacity-0 transform translate-y-10 transition-all duration-1000 delay-500"
         ref="heroTitle"
       >
         Jesus Christ Solution Ministry
@@ -39,7 +39,7 @@
         <p class="text-xl md:text-2xl leading-relaxed font-light italic">
           "Come to me, all you who are weary and burdened, and I will give you rest."
         </p>
-        <p class="text-lg md:text-xl mt-4 text-amber-300 font-medium">
+        <p class="text-lg md:text-xl mt-4 text-white font-medium">
           — Matthew 11:28
         </p>
       </div>

@@ -1,10 +1,10 @@
 <template>
-  <section id="services" class="py-20 bg-gradient-to-b from-blue-700 to-blue-800">
+  <section id="services" class="py-20 bg-gradient-to-b from-blue-800 to-blue-700">
     <!-- Service Times Section -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16 animate-fade-in-up" ref="servicesTitle">
         <div class="inline-block">
-          <h2 class="text-4xl md:text-5xl font-bold text-amber-900 mb-4">Service Times</h2>
+          <h2 class="text-4xl md:text-5xl font-bold text-amber-900 mb-4">Service Time</h2>
           <div class="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500 to-transparent mx-auto mb-6"></div>
         </div>
         <p class="text-lg text-white/90 font-light">Join us for worship and fellowship</p>

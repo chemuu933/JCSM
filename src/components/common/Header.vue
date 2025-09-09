@@ -49,7 +49,7 @@
               v-for="item in navigationItems"
               :key="item.id"
               :href="item.href"
-              class="relative px-4 py-2 text-sm font-semibold text-gray-700 hover:text-blue-600 transition-all duration-300 rounded-lg hover:bg-blue-50 group"
+              class="relative px-4 py-2 text-sm font-semibold text-amber-800 hover:text-blue-600 transition-all duration-300 rounded-lg hover:bg-blue-50 group"
               :class="{ 'text-blue-600 bg-blue-50': activeSection === item.id }"
               @click="scrollToSection(item.id)"
             >
@@ -74,7 +74,7 @@
         <!-- Call to Action Button (Desktop) -->
         <div class="hidden lg:block">
           <button
-            class="bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-white px-6 py-2.5 rounded-full font-semibold text-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+            class="bg-gradient-to-r from-amber-800 to-amber-900 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-2.5 rounded-full font-semibold text-sm shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
             @click="scrollToSection('offering')"
           >
             <i class="fas fa-heart text-sm"></i>

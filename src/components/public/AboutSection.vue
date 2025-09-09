@@ -1,10 +1,10 @@
 <template>
-  <section id="about" class="py-20 bg-gradient-to-b from-blue-700 to-blue-800">
+  <section id="about" class="py-20 bg-gradient-to-b from-blue-800 to-blue-800">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Enhanced Title Section -->
       <div class="text-center mb-16 animate-fade-in-up" ref="aboutTitle">
         <div class="inline-block">
-          <h2 class="text-4xl md:text-5xl font-bold text-amber-900 mb-4">
+          <h2 class="text-4xl md:text-5xl font-bold text-amber-800 mb-4">
             About Our Ministry
           </h2>
           <div
@@ -35,7 +35,7 @@
             <i class="fas fa-bullseye text-3xl text-white"></i>
           </div>
           <h3
-            class="text-2xl lg:text-3xl font-bold text-amber-900 text-center mb-6"
+            class="text-2xl lg:text-3xl font-bold text-amber-800 text-center mb-6"
           >
             Our Mission
           </h3>
@@ -63,14 +63,14 @@
             <i class="fas fa-eye text-3xl text-white"></i>
           </div>
           <h3
-            class="text-2xl lg:text-3xl font-bold text-amber-900 text-center mb-6"
+            class="text-2xl lg:text-3xl font-bold text-amber-800 text-center mb-6"
           >
             Our Vision
           </h3>
           <div class="w-16 h-0.5 bg-blue-600 mx-auto mb-6"></div>
           <p class="text-gray-700 leading-relaxed text-center">
             "Go into all the world and preach Good News to all creation. Whoever
-            believes and is baptized will be saved." - Mark 16:15-16
+            believes and is baptized will be saved." 
           </p>
           <div class="mt-6 pt-4 border-t border-gray-200">
             <div class="flex items-center justify-center gap-2 text-blue-700">
@@ -86,7 +86,7 @@
         <div class="max-w-6xl mx-auto">
           <div class="text-center mb-12">
             <div class="inline-block">
-              <h3 class="text-3xl md:text-4xl font-bold text-amber-900 mb-4">
+              <h3 class="text-3xl md:text-4xl font-bold text-amber-800 mb-4">
                 Ministry Programs
               </h3>
               <div
@@ -107,13 +107,13 @@
               <div
                 class="bg-gradient-to-br from-red-500 to-red-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg"
               >
-                <i class="fas fa-heart text-2xl text-white"></i>
+                <i class="fas fa-users text-2xl text-white"></i>
               </div>
-              <h4 class="text-xl font-bold text-amber-900 text-center mb-4">
+              <h4 class="text-xl font-bold text-amber-800 text-center mb-4">
                 Youth Ministry
               </h4>
               <div class="bg-red-50 rounded-lg p-4 mb-4">
-                <p class="text-red-800 font-medium text-center">Ages 13-25</p>
+                <p class="text-amber-800 font-medium text-center">Ages 13-25</p>
               </div>
               <p class="text-gray-700 leading-relaxed text-center">
                 Guiding young people into a deeper, authentic relationship with
@@ -122,7 +122,7 @@
               </p>
               <div class="mt-6 pt-4 border-t border-gray-200">
                 <div
-                  class="flex items-center justify-center gap-2 text-red-700"
+                  class="flex items-center justify-center gap-2 text-amber-800"
                 >
                   <i class="fas fa-users text-sm"></i>
                   <span class="text-sm font-medium">Youth Fellowship</span>
@@ -138,13 +138,13 @@
               <div
                 class="bg-gradient-to-br from-green-500 to-green-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg"
               >
-                <i class="fas fa-hands-helping text-2xl text-white"></i>
+                <i class="fas fa-child text-2xl text-white"></i>
               </div>
-              <h4 class="text-xl font-bold text-amber-900 text-center mb-4">
+              <h4 class="text-xl font-bold text-amber-800 text-center mb-4">
                 Sunday School Kids
               </h4>
               <div class="bg-green-50 rounded-lg p-4 mb-4">
-                <p class="text-green-800 font-medium text-center">Ages 4-12</p>
+                <p class="text-amber-800 font-medium text-center">Ages 4-12</p>
               </div>
               <p class="text-gray-700 leading-relaxed text-center">
                 Where the Word of God becomes a living guide for forming
@@ -154,7 +154,7 @@
               </p>
               <div class="mt-6 pt-4 border-t border-gray-200">
                 <div
-                  class="flex items-center justify-center gap-2 text-green-700"
+                  class="flex items-center justify-center gap-2 text-amber-800"
                 >
                   <i class="fas fa-child text-sm"></i>
                   <span class="text-sm font-medium">Children's Ministry</span>
@@ -170,13 +170,13 @@
               <div
                 class="bg-gradient-to-br from-purple-500 to-purple-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg"
               >
-                <i class="fas fa-book-open text-2xl text-white"></i>
+                <i class="fas fa-bible text-2xl text-white"></i>
               </div>
-              <h4 class="text-xl font-bold text-amber-900 text-center mb-4">
+              <h4 class="text-xl font-bold text-amber-800 text-center mb-4">
                 Bible Study Group
               </h4>
               <div class="bg-purple-50 rounded-lg p-4 mb-4">
-                <p class="text-purple-800 font-medium text-center">
+                <p class="text-amber-800 font-medium text-center">
                   All Ages Welcome
                 </p>
               </div>
@@ -187,7 +187,7 @@
               </p>
               <div class="mt-6 pt-4 border-t border-gray-200">
                 <div
-                  class="flex items-center justify-center gap-2 text-purple-700"
+                  class="flex items-center justify-center gap-2 text-amber-700"
                 >
                   <i class="fas fa-bible text-sm"></i>
                   <span class="text-sm font-medium">Scripture Study</span>

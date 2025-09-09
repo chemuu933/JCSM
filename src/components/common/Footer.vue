@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="bg-gradient-to-b from-amber-900 to-amber-950 text-white relative overflow-hidden"
+    class="bg-gradient-to-b from-amber-800 to-amber-900 text-white relative overflow-hidden"
   >
     <div class="relative z-10 py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -21,7 +21,7 @@
               <h3 class="text-2xl font-bold text-white mb-2">
                 Jesus Solution Ministry
               </h3>
-              <p class="text-amber-100 text-sm leading-relaxed">
+              <p class="text-white text-sm leading-relaxed">
                 Transforming lives through the power of God's love and grace.
                 Join us in our mission to spread hope and healing.
               </p>
@@ -46,10 +46,10 @@
                   <i class="fas fa-map-marker-alt text-amber-300 text-sm"></i>
                 </div>
                 <div>
-                  <p class="text-amber-100 text-sm leading-relaxed">
+                  <p class="text-white text-sm leading-relaxed">
                     Rafiki Center<br />
                     <span class="text-amber-200"
-                      >(Behind Blessing Mini Supermarket)</span
+                      ></span
                     >
                   </p>
                 </div>
@@ -65,7 +65,7 @@
                   <i class="fas fa-phone text-green-400 text-sm"></i>
                 </div>
                 <p
-                  class="text-amber-100 text-sm group-hover:text-white transition-colors"
+                  class="text-white text-sm group-hover:text-white transition-colors"
                 >
                   0792665651
                 </p>
@@ -81,7 +81,7 @@
                   <i class="fas fa-envelope text-blue-400 text-sm"></i>
                 </div>
                 <p
-                  class="text-amber-100 text-sm group-hover:text-white transition-colors"
+                  class="text-white text-sm group-hover:text-white transition-colors"
                 >
                   info@jcsministry.org
                 </p>
@@ -102,7 +102,7 @@
             <div class="space-y-3">
               <a
                 href="#home"
-                class="flex items-center text-amber-100 hover:text-white transition-all duration-300 group text-sm"
+                class="flex items-center text-white hover:text-white transition-all duration-300 group text-sm"
                 @click="scrollToSection('home')"
               >
                 <div
@@ -114,7 +114,7 @@
               </a>
               <a
                 href="#about"
-                class="flex items-center text-amber-100 hover:text-white transition-all duration-300 group text-sm"
+                class="flex items-center text-white hover:text-white transition-all duration-300 group text-sm"
                 @click="scrollToSection('about')"
               >
                 <div
@@ -126,7 +126,7 @@
               </a>
               <a
                 href="#services"
-                class="flex items-center text-amber-100 hover:text-white transition-all duration-300 group text-sm"
+                class="flex items-center text-white hover:text-white transition-all duration-300 group text-sm"
                 @click="scrollToSection('services')"
               >
                 <div
@@ -138,7 +138,7 @@
               </a>
               <a
                 href="#events"
-                class="flex items-center text-amber-100 hover:text-white transition-all duration-300 group text-sm"
+                class="flex items-center text-white hover:text-white transition-all duration-300 group text-sm"
                 @click="scrollToSection('events')"
               >
                 <div
@@ -150,7 +150,7 @@
               </a>
               <a
                 href="#offering"
-                class="flex items-center text-amber-100 hover:text-white transition-all duration-300 group text-sm"
+                class="flex items-center text-white hover:text-white transition-all duration-300 group text-sm"
                 @click="scrollToSection('offering')"
               >
                 <div
@@ -176,7 +176,7 @@
 
             <!-- Social Media -->
             <div class="mb-6">
-              <p class="text-amber-200 text-sm mb-3">Follow Us</p>
+              <p class="text-white text-sm mb-3">Follow Us</p>
               <div class="flex space-x-3">
                 <a
                   href="#"
@@ -199,10 +199,10 @@
             <div
               class="bg-white/5 backdrop-blur-sm rounded-lg p-4 border border-white/10"
             >
-              <p class="text-amber-200 text-sm mb-2 font-semibold">
+              <p class="text-white text-sm mb-2 font-semibold">
                 Service Times
               </p>
-              <div class="space-y-1 text-xs text-amber-100">
+              <div class="space-y-1 text-xs text-white">
                 <p>
                   <span class="text-blue-300">Sunday:</span> 9:30 AM - 12:00 PM
                 </p>
@@ -236,12 +236,10 @@
         <!-- Bottom Section -->
         <div class="text-center">
           <div class="mb-4">
-            <p class="text-amber-200 text-sm italic mb-2">
-              "For God so loved the world that he gave his one and only Son,
-              that whoever believes in him shall not perish but have eternal
-              life."
+            <p class="text-white text-sm italic mb-2">
+             Jesus said, "Come to Me; All you who are weary and burdened, And I will Give You Rest"
             </p>
-            <p class="text-amber-300 text-xs font-semibold">- John 3:16</p>
+            <p class="text-white text-xs font-semibold">- Matthew 11:23</p>
           </div>
 
           <div class="border-t border-amber-700/30 pt-6">
@@ -251,7 +249,7 @@
                 >Jesus Christ Solution Ministry</span
               >. All rights reserved.
             </p>
-            <p class="text-amber-200 text-xs mt-1">
+            <p class="text-white text-xs mt-1">
               Built with love and faith for God's glory
             </p>
           </div>

@@ -8,7 +8,7 @@
       <div class="text-center mb-16 animate-fade-in-up" ref="offeringTitle">
         <div class="inline-block">
           <h2 class="text-4xl md:text-5xl font-bold text-amber-900 mb-4">
-            Online Giving
+              Offering
           </h2>
           <div
             class="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500 to-transparent mx-auto mb-6"
