@@ -1,0 +1,92 @@
+Check on this points if they are working as expected.
+
+Looks like I can’t open your repo directly from here (the GitHub fetch failed). But no worries — I can guide you on **exact areas to check in your project files** so that your Tailwind styles work properly on Vercel.
+
+Here’s where to look and what to fix:
+
+---
+
+### 1. **Check `tailwind.config.js`**
+
+Open this file in your repo root. Make sure it has the **correct content paths**:
+
+```js
+// tailwind.config.js
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+❌ Common mistake: forgetting `"./src/**/*.{vue,js,ts}"` → results in empty CSS after build.
+
+---
+
+### 2. **Check `postcss.config.js`**
+
+You need this file in the root of your project. Inside, confirm it looks like:
+
+```js
+// postcss.config.js
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+```
+
+❌ Common mistake: missing `postcss.config.js`, so Vite doesn’t process Tailwind at build time.
+
+---
+
+### 3. **Check Your `main.js` (or `main.ts`)**
+
+Make sure Tailwind CSS is actually imported:
+
+```js
+// src/main.js
+import { createApp } from 'vue'
+import App from './App.vue'
+
+// Import Tailwind
+import './assets/tailwind.css'
+
+createApp(App).mount('#app')
+```
+
+❌ If you only import it in one component, styles may not apply globally.
+
+---
+
+### 4. **Check `tailwind.css` File**
+
+In `src/assets/tailwind.css`, you should have:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+❌ Missing this means Tailwind won’t generate any styles.
+
+---
+
+### 5. **Force Clean Build on Vercel**
+
+Sometimes Vercel caches incorrectly. Do this:
+
+* Go to Vercel → Deployments → **Redeploy**
+* Or push a dummy commit (`git commit --allow-empty -m "redeploy" && git push`)
+
+---
+
+
+
