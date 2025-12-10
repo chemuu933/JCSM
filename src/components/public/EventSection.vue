@@ -43,11 +43,11 @@
               <i class="fas fa-users text-white text-lg"></i>
             </div>
             <h3 class="text-xl font-bold text-amber-900 mb-3">
-              Youth Conference 2025
+              Youth Conference 
             </h3>
             <p class="text-gray-600 mb-6 leading-relaxed">
-              A special gathering for young people to grow in faith and
-              fellowship with inspiring speakers and worship.
+              A  young people forum  to grow in faith ,
+              fellowship  and worship.
             </p>
             <button
               class="w-full bg-gradient-to-r from-amber-800 to-amber-700 hover:from-amber-700 hover:to-amber-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
@@ -83,7 +83,7 @@
               <i class="fas fa-heart text-white text-lg"></i>
             </div>
             <h3 class="text-xl font-bold text-amber-900 mb-3">
-              Community Outreach Day
+              kids section
             </h3>
             <p class="text-gray-600 mb-6 leading-relaxed">
               Join us as we serve our community through food distribution, free
@@ -207,7 +207,7 @@
             </h3>
             <p class="text-gray-600 mb-6 leading-relaxed">
               A powerful evangelistic event featuring inspiring worship, prayer,
-              and ministry to reach souls for Christ in our community.
+              and ministry to reach souls for Christ.
             </p>
             <button
               class="w-full bg-gradient-to-r from-blue-800 to-blue-900 hover:from-red-500 hover:to-amber-800 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"
@@ -246,8 +246,8 @@
               Women/Men Seminar
             </h3>
             <p class="text-gray-600 mb-6 leading-relaxed">
-              Empowering seminars designed for both men and women to strengthen
-              relationships, faith, and personal growth in Christ.
+              Empowering seminars through the holy spirit designed for both men and women to strengthen
+              relationships, fellowships, faith, and personal growth in Christ.
             </p>
             <button
               class="w-full bg-gradient-to-r from-amber-800 to-amber-900 hover:from-indigo-500 hover:to-blue-800 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg"

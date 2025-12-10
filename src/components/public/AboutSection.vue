@@ -5,7 +5,7 @@
       <div class="text-center mb-16 animate-fade-in-up" ref="aboutTitle">
         <div class="inline-block">
           <h2 class="text-4xl md:text-5xl font-bold text-amber-800 mb-4">
-            About Our Ministry
+            The Ministry
           </h2>
           <div
             class="w-24 h-1 bg-gradient-to-r from-transparent via-amber-500 to-transparent mx-auto mb-6"
@@ -15,10 +15,10 @@
           class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 max-w-4xl mx-auto"
         >
           <p class="text-lg text-white/90 leading-relaxed font-light">
-            Jesus Christ Solution Ministry is a vibrant community of believers
-            dedicated to spreading God's word, love and providing spiritual
-            solutions to life's challenges. We believe in the transformative
-            power of faith and the importance of community support.
+            Jesus Christ Solution Ministry is family of God,
+            dedicated to spreading the good news to all creation, love and live 
+            solutions . We believe in the transformative
+            power of faith and believe.
           </p>
         </div>
       </div>
@@ -37,13 +37,13 @@
           <h3
             class="text-2xl lg:text-3xl font-bold text-amber-800 text-center mb-6"
           >
-            Our Mission
+             Mission
           </h3>
           <div class="w-16 h-0.5 bg-blue-600 mx-auto mb-6"></div>
           <p class="text-gray-700 leading-relaxed text-center">
-            At Jesus Christ Solution Ministry Church, our mission is to spread
-            the Gospel, bring hope to the weary, and uplift souls through the
-            love and teachings of Jesus Christ.
+            The mission is to spread
+            the Good news, bring hope to the weary, and uplift souls through the
+            love and teachings/preachings of Jesus Christ.
           </p>
           <div class="mt-6 pt-4 border-t border-gray-200">
             <div class="flex items-center justify-center gap-2 text-amber-700">
@@ -65,17 +65,17 @@
           <h3
             class="text-2xl lg:text-3xl font-bold text-amber-800 text-center mb-6"
           >
-            Our Vision
+             Vision
           </h3>
           <div class="w-16 h-0.5 bg-blue-600 mx-auto mb-6"></div>
-          <p class="text-gray-700 leading-relaxed text-center">
+          <p class="text-gray-900 leading-relaxed text-center">
             "Go into all the world and preach Good News to all creation. Whoever
-            believes and is baptized will be saved." 
+            believes and is baptized will be saved/rescured." Mark 16:15-16
           </p>
           <div class="mt-6 pt-4 border-t border-gray-200">
             <div class="flex items-center justify-center gap-2 text-blue-700">
               <i class="fas fa-globe text-sm"></i>
-              <span class="text-sm font-medium">Global Gospel Mission</span>
+              <span class="text-sm font-medium">Global Gospel Vission</span>
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@
             <p class="text-lg text-white/90 font-light">
               Nurturing Faith Through Community and Service
             </p>
-          </div>
+          </div> 
 
           <div class="grid md:grid-cols-3 gap-8">
             <!-- Youth Ministry -->
@@ -113,12 +113,12 @@
                 Youth Ministry
               </h4>
               <div class="bg-red-50 rounded-lg p-4 mb-4">
-                <p class="text-amber-800 font-medium text-center">Ages 13-25</p>
+                <p class="text-amber-800 font-medium text-center"></p>
               </div>
               <p class="text-gray-700 leading-relaxed text-center">
                 Guiding young people into a deeper, authentic relationship with
                 Christ, fostering spiritual growth, moral formation, and a sense
-                of belonging within our faith community.
+                of belonging as family of God.
               </p>
               <div class="mt-6 pt-4 border-t border-gray-200">
                 <div
@@ -183,7 +183,7 @@
               <p class="text-gray-700 leading-relaxed text-center">
                 Deep dive into God's Word through interactive discussions,
                 prayer, and biblical teaching that strengthens faith and builds
-                spiritual understanding in our community.
+                spiritual understanding in the believer.
               </p>
               <div class="mt-6 pt-4 border-t border-gray-200">
                 <div

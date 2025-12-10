@@ -71,12 +71,12 @@
             <p class="text-blue-800 font-semibold text-lg">5:30 PM - 6:30 PM</p>
           </div>
           <p class="text-gray-600 leading-relaxed">
-            Powerful prayer sessions that strengthen faith and build community bonds
+            Powerful prayer sessions that strengthen faith and build  Gods family bonds
           </p>
           <div class="mt-6 pt-4 border-t border-gray-200">
             <div class="flex items-center justify-center gap-2 text-amber-700">
               <i class="fas fa-hands text-sm"></i>
-              <span class="text-sm font-medium">Community Prayer</span>
+              <span class="text-sm font-medium">Family Prayer</span>
             </div>
           </div>
         </div>
@@ -135,15 +135,15 @@
                   <p class="text-base lg:text-lg">
                     With a passion for ministry and a heart for God's people,
                     Dr. Emily Cheposero Tumwet leads Jesus Christ Solution
-                    Ministry Church with wisdom, grace, and an unwavering
-                    commitment to spreading the Word of God.
+                    Ministry Church with wisdom, grace, and a 
+                    commitment to spreading the Good News.
                   </p>
 
                   <p class="text-base lg:text-lg">
-                    She is a devoted servant of Christ, dedicated to guiding
-                    believers in their spiritual journey and empowering them to
-                    live according to God's purpose. Through her powerful
-                    teachings, heartfelt prayers, and deep biblical insights,
+                    She is a devoted servant of Christ, dedicated to  inviting sinners to christ, guiding
+                    believers in their spiritual journey and empowering them  through the holy spirit.
+                    . Through  
+                    teachings,  prayers, and biblical insights,
                     she continues to transform lives and bring hope to many.
                   </p>
 
@@ -152,8 +152,8 @@
                   >
                     <p class="text-blue-800 italic font-medium">
                       "Her leadership is centered on faith, love, and the power
-                      of the Holy Spirit to bring healing and restoration to all
-                      who seek Christ."
+                      of the Holy Spirit to bring healing and restoration to Gods
+                      creation."
                     </p>
                   </div>
                 </div>
@@ -167,7 +167,7 @@
                     </div>
                     <div class="flex items-center gap-2 text-blue-600">
                       <i class="fas fa-book text-lg"></i>
-                      <span class="font-semibold">Biblical Teacher</span>
+                      <span class="font-semibold">Biblical Teacher/Preacher</span>
                     </div>
                   </div>
                 </div>

@@ -15,7 +15,7 @@
           ></div>
         </div>
         <p class="text-lg text-white/90 font-light">
-          Support our ministry through secure digital offerings
+          Offering through secure digital offerings
         </p>
       </div>
 
@@ -166,11 +166,10 @@
               <i class="fas fa-heart text-white text-lg"></i>
             </div>
             <p class="text-gray-700 font-medium italic">
-              "Thank you for your generous heart and faithful stewardship. Your
-              offerings help us continue God's work in our community."
+              "Thank you for honouring  God with your offering ."
             </p>
             <p class="text-blue-800 font-semibold mt-2">
-              - Jesus Solution Ministry Team
+              -
             </p>
           </div>
         </div>
