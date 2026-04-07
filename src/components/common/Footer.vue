@@ -244,7 +244,7 @@
 
           <div class="border-t border-amber-700/30 pt-6">
             <p class="text-amber-100 text-sm">
-              &copy; 2025
+              &copy;{{ currentYear }}  
               <span class="font-semibold text-white"
                 >Jesus Christ Solution Ministry</span
               >. All rights reserved.
@@ -260,7 +260,10 @@
 </template>
 
 <script lang="ts" setup>
-import founderImageUrl from "../../assets/logo.png";
+import founderImageUrl from "@/assets/logo.png";
+
+// Get current year for dynamic copyright
+const currentYear = new Date().getFullYear();
 
 // Scroll to section functionality
 const scrollToSection = (sectionId: string) => {
